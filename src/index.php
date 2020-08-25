@@ -8,12 +8,7 @@
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick.css">
     <link rel="stylesheet" href="https://kenwheeler.github.io/slick/slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
-<!--    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">-->
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<!--    <script src="js/jquery.js"></script>-->
-    <script src="js/slick.js"></script>
-    <script src="js/index.js"></script>
 </head>
 <body>
 <div class="module-1">
@@ -37,6 +32,8 @@
     </div>
 </div>
 
-
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/slick.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
