@@ -1,6 +1,13 @@
-console.log("test");
-console.log("zxczxczx");
 
 jQuery(function ($) {
    $("body").addClass("js");
+
+   $('.slider').slick({
+      dots: true,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+   });
+
 });
