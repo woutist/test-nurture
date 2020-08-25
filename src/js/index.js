@@ -13,6 +13,8 @@ jQuery(function ($) {
       infinite: true,
       speed: 300,
         arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
       slidesToShow: 1,
       adaptiveHeight: true
    });
