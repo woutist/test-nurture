@@ -16,22 +16,21 @@
     <script src="js/index.js"></script>
 </head>
 <body>
-
-<div class="container">
-    <div class="row">
-        <div class="col-sm-6">
-            <h2>Long headline to turn your visitors into users</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dolor id leo hendrerit malesuada vitae nec quam. Fusce quis purus vitae ligula pretium sollicitudin ac vitae lorem. Fusce interdum eget nunc a pellentesque. </p>
-            <h3>Feature</h3>
-            <p>Gorgeous, high-quality video sharing on desktop, mobile, tablet</p>
-        </div>
-        <div class="col-sm-6">
-            <div class="slider">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
+<div class="module-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h2>Long headline to turn your visitors into users</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dolor id leo hendrerit malesuada vitae nec quam. Fusce quis purus vitae ligula pretium sollicitudin ac vitae lorem. Fusce interdum eget nunc a pellentesque. </p>
+                <h3>Feature</h3>
+                <p>Gorgeous, high-quality video sharing on desktop, mobile, tablet</p>
+            </div>
+            <div class="col-sm-6">
+                <div class="module-1__slider">
+                    <?php for($i=0; $i<5; $i++) { ?>
+                        <div>slide <?= $i ?></div>
+                    <?php } ?>
+                </div>
             </div>
         </div>
     </div>

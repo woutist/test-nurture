@@ -1,29 +1,39 @@
- .module-1 {
-   background-color: green;
-   @extend .pt-3;
-   @extend .pb-3;
-   &__wrap {
-     color: white;
-   }
-   &__tile {
-     background-color: darkcyan;
-     padding: 15px;
-     min-height: 250px;
-     height: 100%;
-     @extend .d-flex;
-     @extend .flex-column;
-     //@include media-breakpoint-down(sm) {
-     //  margin-top: 15px;
-     //}
-   }
-   &__btn-1 {
-     margin-top: auto;
-   }
-   &__wrap-tile {
-     @extend .mb-sm-0;
-     @extend .mb-3;
-     &:last-child {
-       @extend .mb-0;
-     }
-   }
- }
+.module-1 {
+  font-family: "gothica1-regular", Arial;
+  &__slider {
+    > div {
+      min-height: 400px;
+      background-color: grey;
+    }
+  }
+}
+
+//.module-1 {
+//   background-color: green;
+//   @extend .pt-3;
+//   @extend .pb-3;
+//   &__wrap {
+//     color: white;
+//   }
+//   &__tile {
+//     background-color: darkcyan;
+//     padding: 15px;
+//     min-height: 250px;
+//     height: 100%;
+//     @extend .d-flex;
+//     @extend .flex-column;
+//     //@include media-breakpoint-down(sm) {
+//     //  margin-top: 15px;
+//     //}
+//   }
+//   &__btn-1 {
+//     margin-top: auto;
+//   }
+//   &__wrap-tile {
+//     @extend .mb-sm-0;
+//     @extend .mb-3;
+//     &:last-child {
+//       @extend .mb-0;
+//     }
+//   }
+// }

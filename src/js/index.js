@@ -2,7 +2,7 @@
 jQuery(function ($) {
    $("body").addClass("js");
 
-   $('.slider').slick({
+   $('.module-1__slider').slick({
       dots: true,
       infinite: true,
       speed: 300,
