@@ -37,43 +37,6 @@
     </div>
 </div>
 
-<!--<div class="container-fluid">-->
-<!--    <div class="row">-->
-<!--        <div class="col">-->
-<!--            <h1>Homepage !</h1>-->
-<!--            <p>Lorem ipsum...</p>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
-<!--<div class="module-1">-->
-<!--    <div class="container module-1__wrap">-->
-<!--        <div class="row">-->
-<!--            <div class="col-sm-4 module-1__wrap-tile">-->
-<!--                <div class="module-1__tile">-->
-<!--                    <h2>Lorem ipsum heading 1</h2>-->
-<!--                    <p>Lorem ipsum some example text 1</p>-->
-<!--                    <a class="module-1__btn-1" href="#">Read more</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-sm-4 module-1__wrap-tile">-->
-<!--                <div class="module-1__tile">-->
-<!--                    <h2>Lorem ipsum heading 1</h2>-->
-<!--                    <p>Lorem ipsum some example text 1 Lorem ipsum some example text 1 Lorem ipsum some example text 1</p>-->
-<!--                    <a class="module-1__btn-1" href="#">Read more</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-sm-4 module-1__wrap-tile">-->
-<!--                <div class="module-1__tile">-->
-<!--                    <h2>Lorem ipsum heading 1</h2>-->
-<!--                    <p>Lorem ipsum some example text 1 Lorem ipsum some example text 1</p>-->
-<!--                    <a class="module-1__btn-1" href="#">Read more</a>-->
-<!--                </div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
 
 </body>
 </html>
