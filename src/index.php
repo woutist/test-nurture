@@ -19,16 +19,16 @@
 <div class="module-1">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 d-flex flex-column module-1__col1">
                 <h2>Long headline to turn your visitors into users</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sit amet dolor id leo hendrerit malesuada vitae nec quam. Fusce quis purus vitae ligula pretium sollicitudin ac vitae lorem. Fusce interdum eget nunc a pellentesque. </p>
                 <h3>Feature</h3>
                 <p>Gorgeous, high-quality video sharing on desktop, mobile, tablet</p>
             </div>
-            <div class="col-sm-6">
-                <div class="module-1__slider">
+            <div class="col-sm-6 module-1__col2">
+                <div class="module-1__slider mb-0">
                     <?php for($i=0; $i<5; $i++) { ?>
-                        <div>slide <?= $i ?></div>
+                        <div style="background-image: url(media/img/cargo-floor.jpg);"><!--slide <?= $i ?>--></div>
                     <?php } ?>
                 </div>
             </div>

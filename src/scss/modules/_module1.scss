@@ -1,9 +1,63 @@
 .module-1 {
-  font-family: "gothica1-regular", Arial;
+  background-color: white;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  &__col1 {
+    line-height: 1.4;
+    h2 {
+      font-size: 28px;
+      max-width: 445px;
+      margin-bottom: 0;
+      + p {
+        font-size: 16px;
+        max-width: 445px;
+      }
+    }
+    h3 {
+      margin: auto auto 0;
+      text-align: center;
+      font-size: 22px;
+      max-width: 200px;
+      + p {
+        text-align: center;
+        font-size: 14px;
+        max-width: 200px;
+        margin: 15px auto;
+      }
+    }
+  }
   &__slider {
-    > div {
+    .slick-slide {
       min-height: 400px;
+      @include media-breakpoint-down(xs) {
+        min-height: 200px;
+      }
+
       background-color: grey;
+      background-size: cover;
+      background-position: 50%;
+    }
+    .slick-dots {
+      bottom: 15px;
+      li {
+        margin: 0;
+        width: 12px;
+        &.slick-active {
+          button {
+            &:before {
+              color: white;
+            }
+          }
+        }
+        button {
+          padding-left: 0;
+          padding-right: 0;
+          width: 12px;
+          &:before {
+            width: 12px;
+          }
+        }
+      }
     }
   }
 }
