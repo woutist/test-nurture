@@ -31,6 +31,7 @@
                         <div style="background-image: url(media/img/cargo-floor.jpg);"><!--slide <?= $i ?>--></div>
                     <?php } ?>
                 </div>
+                <span class="module-1__info-slider"></span>
             </div>
         </div>
     </div>
