@@ -13,18 +13,21 @@
         max-width: 445px;
       }
     }
-    h3 {
-      margin: auto auto 0;
+    .module-1__bottom {
+      margin-top: auto;
       text-align: center;
-      font-size: 22px;
-      max-width: 200px;
-      + p {
-        text-align: center;
-        font-size: 14px;
+      h3 {
+        font-size: 22px;
         max-width: 200px;
-        margin: 15px auto;
+        margin: 0 auto;
+        + p {
+          font-size: 14px;
+          max-width: 200px;
+          margin: 15px auto;
+        }
       }
     }
+
   }
   &__slider {
     .slick-slide {
